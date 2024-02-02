@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+    <style>
+
+        #rlwrap{
+            display: flex;
+            justify-content: center;
+        }
+        #rltable{
+            width: 50%;
+        }
+
+        @media (max-width: 500px) {
+            #rltable {
+                width: 100%;
+                font-size: 0.8rem;
+            }
+            #rltable tr td:nth-child(3){
+                display: none;
+            }
+            #rltable tr th:nth-child(3){
+                display: none;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div id="wrap">
+        <div id="rlwrap">
+            <table id="rltable">
+                <tr>
+                    <th> # </th>
+                    <th> 일차 </th>
+                    <th> 날짜 </th>
+                    <th> 언어 </th>
+                    <th> 학습내용 </th>
+                </tr>
+                <tr>
+                    <td> 3 </td>
+                    <td> 3일차 </td>
+                    <td> 2024-02-05 </td>
+                    <td> 스프링 </td>
+                    <td> 109일차 스프링 웹소켓2 / 막대,원형차트 </td>
+                </tr>
+                <tr>
+                    <td> 2 </td>
+                    <td> 2일차 </td>
+                    <td> 2024-02-04 </td>
+                    <td> 툴 </td>
+                    <td> 주요학습 </td>
+                </tr>
+                <tr>
+                    <td> 1 </td>
+                    <td> 1일차 </td>
+                    <td> 2024-02-03 </td>
+                    <td> 툴 </td>
+                    <td> 주요학습 </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
