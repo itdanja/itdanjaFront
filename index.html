@@ -16,8 +16,26 @@
         }
         #rltable{
             width: 50%;
+            text-align: center;
+        }
+        #rltable tr td:nth-child(5){
+            text-align: left;
+        }
+        #rltable{
+            border-collapse: collapse;
+            font-size: 12px;
+        }
+        #rltable , #rltable td , #rltable th {
+            border: 1px solid #eeeeee;
+            padding: 1%;
         }
 
+        #rltable tr td:nth-child(1){  width: 5%;   }
+        #rltable tr td:nth-child(2){  width: 10%;   }
+        #rltable tr td:nth-child(3){  width: 15%;   }
+        #rltable tr td:nth-child(4){  width: 10%;   }
+        #rltable tr td:nth-child(5){  width: 60%;   }
+        
         @media (max-width: 500px) {
             #rltable {
                 width: 100%;
