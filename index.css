@@ -1,10 +1,11 @@
 
-#rlwrap{
-    display: flex;
-    justify-content: center;
+#wrap{
+    max-width: 1280px;
+    margin: 0 auto;
 }
+
 #rltable{
-    width: 50%;
+    width: 100%;
     text-align: center;
 }
 #rltable tr td:nth-child(5){
@@ -33,15 +34,8 @@ a{
     text-decoration: none;
 }
 
-@media (max-width: 900px) {
-    #rltable {
-        width: 100%;
-        font-size: 0.9rem;
-    }
-}
-
-@media (max-width: 600px) {
-    #rltable {
+@media (max-width: 800px) {
+    #wrap {
         width: 100%;
         font-size: 0.8rem;
     }
